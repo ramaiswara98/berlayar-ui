@@ -1,0 +1,138 @@
+.hero-container{
+    margin: 30px 50px
+}
+
+.hero-text{
+    font-weight: 600;
+    font-size: 72px;
+    text-align: center;
+    color: #0A0A0C;
+    font-family: 'Outfit', sans-serif;
+    line-height: 90.72px;
+}
+
+.red-text{
+    color: #F4444C;
+}
+
+.col-start{
+    min-width: 500px;
+}
+.col-end{
+    width: 500px;
+}
+.col-middle{
+    margin-top: 25px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+}
+.subtitle-container{
+    justify-content: center;
+    text-align: center;
+}
+.subtitle{
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.hero-input{
+    border: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+.hero-input:focus{
+    border: none;
+    outline: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+.hero-email-container{
+    border: solid 2px #8D8D8D;
+    border-radius: 10px;
+    display: flex;
+    width: fit-content;
+    padding: 10px 30px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.hero-button{
+    border-radius: 10px;
+    background-color: #F4444C;
+    padding: 5px 30px;
+    color: #F6F6F6;
+    margin-left: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+}
+
+.video-section{
+    background-color:#0A0A0C ;
+    height: 100;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+video{
+    object-fit: fill;
+}
+
+.third-section{
+    margin-top: 40px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.third-section-title{
+    font-weight: 600;
+    font-size: 32px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.third-section.row{
+    margin-top: 30px;
+}
+
+
+.col div{
+    text-align: center;
+}
+
+.col div p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.fourth-section{
+    padding: 10px 120px;
+}
+
+.text-card{
+    background-color:#F4444C ;
+    border-radius: 0 0px 15px 15px;
+    margin-top: -10px;
+    height: 160px;
+}
+
+.text-card-title{
+    font-weight: 600 !important;
+    font-size: 32px !important;
+    font-family: 'Outfit', sans-serif;
+    color: #F6F6F6;
+}
+.text-card-subtitle{
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    font-family: 'Outfit', sans-serif;
+    color: #F6F6F6;
+}

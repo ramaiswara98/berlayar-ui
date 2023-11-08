@@ -1,0 +1,63 @@
+.footer{
+    background-color: #0A0A0C;
+    padding-top: 50px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text{
+    color: #8D8D8D;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Outfit',sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-title{
+    color: #F6F6F6;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Outfit',sans-serif;
+}
+.left-side{
+    width: 380px;
+}
+.socmed-container img{
+    margin-left:20px
+}
+.term-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-button{
+    border-radius: 10px;
+    background-color: #F4444C;
+    padding: 5px 10px;
+    color: #F6F6F6;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.footer-input-email{
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+}
+
+.term-container p{
+    color: #8D8D8D;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Outfit',sans-serif;
+    margin-left: 10px;
+}
