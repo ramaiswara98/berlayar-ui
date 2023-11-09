@@ -1,17 +1,16 @@
 import React,{useState} from 'react'
-import { Button } from 'bootstrap'
 import { Link } from 'react-router-dom'
 
 import Logo from '../../assets/images/logo-berlayar.png'
-import Button_NavBar from './Button_NavBar'
+import ButtonNavBar from './ButtonNavBar'
 import "./NavBar.css"
 
 function NavBar(props) {
     const[menuOpen, setMenuOpen] = useState(false);
   return (
     <div >
-    <nav className='container-global'>
-        <Link><img src={Logo}/></Link>
+    <nav className='container-global-navbar'>
+        <Link><img src={Logo} alt='Logo'/></Link>
         <div className='menu' onClick={()=>{setMenuOpen(!menuOpen)}}>
             <span></span>
             <span></span>
@@ -20,13 +19,13 @@ function NavBar(props) {
         </div>
         <ul className={menuOpen? "open": ""}>
             <li>
-            <Link><Button_NavBar text="About" button={false}></Button_NavBar></Link>
+            <Link><ButtonNavBar text="About" button={false}></ButtonNavBar></Link>
             </li>
             <li>
-                <Link><Button_NavBar text="Sevices" button={false}></Button_NavBar></Link>
+                <Link><ButtonNavBar text="Sevices" button={false}></ButtonNavBar></Link>
             </li>
             <li>
-                <Link><Button_NavBar text="Get Started" button={true}></Button_NavBar></Link>
+                <Link to={'/get-started'}><ButtonNavBar text="Get Started" button={true}></ButtonNavBar></Link>
             </li>
         </ul>
     </nav>

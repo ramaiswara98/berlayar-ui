@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Button_Navbar.css"
+import "./ButtonNavbar.css"
 
-function Button_NavBar(props) {
+function ButtonNavBar(props) {
   return (
     <div
         className={props.button ? 'button_navbar':'navbar-item'}
@@ -9,4 +9,4 @@ function Button_NavBar(props) {
   )
 }
 
-export default Button_NavBar
+export default ButtonNavBar

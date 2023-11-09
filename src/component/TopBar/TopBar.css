@@ -1,0 +1,28 @@
+.top-bar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px;
+}
+.top-bar{
+    width: 100%;
+}
+
+.top-bar-right{
+    display: flex;
+    align-items: center;
+}
+
+.top-bar-right-item{
+    margin-right: 30px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile p{
+    margin: 0 0 0 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}

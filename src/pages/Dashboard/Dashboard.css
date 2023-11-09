@@ -1,0 +1,9 @@
+.dashboard-container{
+    width: 100%;
+    padding: 10px 40px;
+}
+
+.greeting{
+    border-bottom: 2px solid #000;
+}
+

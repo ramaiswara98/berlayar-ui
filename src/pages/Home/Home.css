@@ -2,6 +2,10 @@
     margin: 30px 50px
 }
 
+.container-global{
+    margin: 0px 40px;
+}
+
 .hero-text{
     font-weight: 600;
     font-size: 72px;
@@ -135,4 +139,41 @@ video{
     font-size: 20px !important;
     font-family: 'Outfit', sans-serif;
     color: #F6F6F6;
+}
+
+@media(max-width:450px){
+    .second-section{
+        display: block;
+        margin: auto;
+    }
+    .hero-text{
+        font-size: 30px;
+    }
+
+    .col-start{
+        display: flex;
+        justify-content: center;
+    }
+    .col-end{
+        width: 100%;
+    }
+   .container-global{
+    overflow-x: hidden;
+   }
+   .hero-email-container{
+    width: 100%;
+   }
+
+    .col-start img{
+        width: 120px;
+    }
+    .col-end img{
+        width: 120px;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+    .col img{
+        width: 72px;
+    }
 }

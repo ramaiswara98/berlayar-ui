@@ -1,0 +1,38 @@
+.card{
+    padding: 20px 40px;
+}
+
+.card-invisible{
+    display: none !important;
+}
+
+.top-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-card-right{
+    display: flex;
+    align-items: center;
+}
+
+.top-card-title{
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 ;
+}
+
+.top-card-right p{
+    margin: 0 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.top-card-right img{
+    width: 20px;
+    height: 20px;
+}

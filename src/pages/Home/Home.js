@@ -1,7 +1,5 @@
 import React from 'react'
-import { Button } from 'bootstrap'
 
-import NavBar from '../../component/NavBar/NavBar'
 import './Home.css'
 import Woman from '../../assets/images/women.png'
 import Man from '../../assets/images/man.png'
@@ -13,6 +11,7 @@ import Bertrand from '../../assets/images/bertrand.png'
 import Kay from '../../assets/images/kay.png'
 import ChingShi from '../../assets/images/chingshi.png'
 import Footer from '../../component/Footer/Footer'
+import Button from '../../shared_component/Button/Button'
 
 
 function Home() {
@@ -24,7 +23,7 @@ function Home() {
             </div>
             <div className='second-section'>
                 <div className='col-start'>
-                    <img src={Woman}/>
+                    <img src={Woman} alt='woman'/>
                 </div>
                 <div className='col-middle'>
                     <div className='subtitle-container'>
@@ -34,11 +33,11 @@ function Home() {
                     </div>
                     <div className='hero-email-container'>
                         <input type='email' placeholder='Enter Your Email Address' className='hero-input'/>
-                        <div className='hero-button'>SignUp</div>
+                        <Button text="SignUp" primary={true} width={'120px'} mobileWidth={'120px'}/>
                     </div>
                 </div>
                 <div className='col-end'>
-                    <img src={Man}/>
+                    <img src={Man} alt='man'/>
                 </div>
             </div>
         </div>
@@ -52,19 +51,19 @@ function Home() {
             <div className='row'>
                 <div className='col'>
                     <div>
-                        <img src={Megaphone}/>
+                        <img src={Megaphone} alt='megaphone'/>
                         <p><b>Listen</b> to what people are saying online and discover new audiences or emerging trens</p>
                     </div>  
                 </div>
                 <div className='col'>
                     <div>
-                        <img src={Database}/>
+                        <img src={Database} alt='database'/>
                         <p><b>Create</b> platform-friendly content complete with copy, and images generated from your dataset</p>
                     </div>  
                 </div>
                 <div className='col'>
                     <div>
-                        <img src={Chat}/>
+                        <img src={Chat} alt='chat'/>
                         <p><b>Capture</b> mindshare and zeitgeist to accelerate bussiness growth</p>
                     </div>  
                 </div>
@@ -79,7 +78,7 @@ function Home() {
                 <div className='row'>
                     <div className='col'>
                         <div>
-                            <img src={Arthur}/>
+                            <img src={Arthur} alt='arthur'/>
                             <div className='text-card'>
                                 <p className='text-card-title'>Arthur</p>
                                 <p className='text-card-subtitle'>Build Up Knowledge and Market Intelligence for Easy Retrieval</p>
@@ -88,7 +87,7 @@ function Home() {
                     </div>
                     <div className='col'>
                         <div>
-                            <img src={Bertrand}/>
+                            <img src={Bertrand} alt='bertrand'/>
                             <div className='text-card'>
                                 <p className='text-card-title'>Bertrand</p>
                                 <p className='text-card-subtitle'>Go from Prompt-to-Publish</p>
@@ -97,7 +96,7 @@ function Home() {
                     </div>
                     <div className='col'>
                         <div>
-                            <img src={Kay}/>
+                            <img src={Kay} alt='kay'/>
                             <div className='text-card'>
                                 <p className='text-card-title'>Kay</p>
                                 <p className='text-card-subtitle'>Prompt-to-Feature</p>
@@ -106,7 +105,7 @@ function Home() {
                     </div>
                     <div className='col'>
                         <div>
-                            <img src={ChingShi}/>
+                            <img src={ChingShi} alt='ching shi'/>
                             <div className='text-card'>
                                 <p className='text-card-title'><b>Ching Shi</b></p>
                                 <p className='text-card-subtitle'>Router and Orchestrator</p>

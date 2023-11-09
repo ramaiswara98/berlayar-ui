@@ -1,10 +1,14 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Home from './pages/Home/Home';
 import NavBar from "./component/NavBar/NavBar";
+import GetStarted from "./pages/GetStarted/GetStarted";
+import Login from "./pages/Login/Login";
+import SignUp from "./pages/SignUp/SignUp";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import AdminPage from "./component/AdminPage/AdminPage";
 
 function App() {
   return (
@@ -15,6 +19,42 @@ function App() {
         path="/"
         element={
           <NavBar content={<Home/>}/>
+        }
+        />
+    </Routes>
+    <Routes>
+      <Route
+        exact
+        path="/get-started"
+        element={
+          <GetStarted/>
+        }
+        />
+    </Routes>
+    <Routes>
+      <Route
+        exact
+        path="/login"
+        element={
+          <Login/>
+        }
+        />
+    </Routes>
+    <Routes>
+      <Route
+        exact
+        path="/sign-up"
+        element={
+          <SignUp/>
+        }
+        />
+    </Routes>
+    <Routes>
+      <Route
+        exact
+        path="/dashboard"
+        element={
+          <AdminPage content={<Dashboard/> } page={'dashboard'}/>
         }
         />
     </Routes>

@@ -4,6 +4,7 @@ import './Footer.css'
 import LogoWhite from '../../assets/images/logo-white.png'
 import Facebook from '../../assets/images/facebook.png'
 import Instagram from '../../assets/images/instagram.png'
+import BottomTermPrivacy from '../BottomTermPrivacy/BottomTermPrivacy'
 
 function Footer() {
   return (
@@ -11,11 +12,11 @@ function Footer() {
         <div className='container-global'>
             <div className='container-footer'>
                 <div className='left-side'>
-                    <img src={LogoWhite}/>
+                    <img src={LogoWhite} alt='Logo'/>
                     <p className='footer-text'>Create and publish hyperlocal social media campaigns in seconds, not months.</p>
                     <div className='socmed-container'>
-                        <img src={Facebook}/>
-                        <img src={Instagram}/>
+                        <img src={Facebook} alt='Facebook'/>
+                        <img src={Instagram} alt='Instagram'/>
                     </div>
                     <p className='footer-text'>Copyright &copy; Berlayar A.I.Pte.Ltd.</p>
                 </div>
@@ -25,9 +26,7 @@ function Footer() {
                         <input type='email' className='footer-input-email' placeholder='Enter Your Email Address'/>
                     </div>
                     <div className='footer-button'>SignUp</div>
-                    <div className='term-container'>
-                        <p>Term & Conditions </p> <p> | </p> <p> Privacy Policiy</p>
-                    </div>
+                    <BottomTermPrivacy/>
                 </div>
             </div>
         </div>

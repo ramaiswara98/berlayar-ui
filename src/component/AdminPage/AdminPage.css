@@ -1,0 +1,10 @@
+.admin-page{
+    display: flex;
+}
+.left-side{
+    width: 100%;
+}
+.content{
+    padding: 20px 120px;
+}
+
