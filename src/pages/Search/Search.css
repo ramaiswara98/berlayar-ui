@@ -1,0 +1,38 @@
+.search-first-row{
+    display: flex;
+    margin-top: 30px;
+}
+.search-first-row span{
+    margin-left: 20px;
+}
+
+.search-second-row{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #8d8d8d;
+}
+
+.search-checkbox-container{
+    display: flex
+}
+
+.search-checkbox{
+    margin-right: 50px;
+}
+.search-result-card{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom:  2px solid #8D8D8D;
+    margin-top: 40px;
+}
+.search-result-card img{
+    width: 200px;
+    height: 200px;
+}
+
+.search-result-content{
+    margin-left: 30px;
+}
+.search-result-content p{
+    margin: 0;
+}

@@ -10,6 +10,7 @@ import SignUp from "./pages/SignUp/SignUp";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import AdminPage from "./component/AdminPage/AdminPage";
 import Generate from "./pages/Generate/Generate";
+import Search from "./pages/Search/Search";
 
 function App() {
   return (
@@ -65,6 +66,15 @@ function App() {
         path="/generate"
         element={
           <AdminPage content={<Generate/> } page={'generate'}/>
+        }
+        />
+    </Routes>
+    <Routes>
+      <Route
+        exact
+        path="/search"
+        element={
+          <AdminPage content={<Search/> } page={'search'}/>
         }
         />
     </Routes>
