@@ -9,6 +9,7 @@ import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import AdminPage from "./component/AdminPage/AdminPage";
+import Generate from "./pages/Generate/Generate";
 
 function App() {
   return (
@@ -55,6 +56,15 @@ function App() {
         path="/dashboard"
         element={
           <AdminPage content={<Dashboard/> } page={'dashboard'}/>
+        }
+        />
+    </Routes>
+    <Routes>
+      <Route
+        exact
+        path="/generate"
+        element={
+          <AdminPage content={<Generate/> } page={'generate'}/>
         }
         />
     </Routes>

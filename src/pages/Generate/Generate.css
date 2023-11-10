@@ -1,0 +1,67 @@
+.generate-container{
+    padding: 30px 40px;
+}
+
+.generate-second-row{
+    margin-top: 30px;
+}
+.generate-second-row p{
+    margin: 0;
+}
+
+.generate-third-row{
+    margin-top: 30px;
+    border-bottom: 2px solid #8D8D8D;
+    padding-bottom: 20px;
+}
+
+.normal-text{
+    color: #0A0A0C;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+.generate-box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.generate-box{
+    border: 2px solid #8D8D8D;
+    border-radius: 10px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.generate-box-text{
+    margin: 0;
+}
+
+.generate-checkbox-container{
+    display: flex
+}
+
+.form-check{
+    margin-right: 20px;
+}
+
+.result-card{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom:  2px solid #8D8D8D;
+    margin-top: 20px;
+}
+
+.generate-four-row{
+    margin-top: 30px;
+}
+
+.result-card img{
+    width: 200px;
+    height: 200px;
+}
+
+.result-content{
+    margin-left: 30px;
+}
