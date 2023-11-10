@@ -7,3 +7,35 @@
     border-bottom: 2px solid #000;
 }
 
+.card-header-text{
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #0A0A0C;
+}
+
+.card-primary-text{
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #F4444C;
+}
+
+.card-secondary-text{
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #8D8D8D;
+}
+.card-black-text{
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #0A0A0C;
+}
+
+.dashboard-content-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
