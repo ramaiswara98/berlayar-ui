@@ -49,7 +49,7 @@ function SideBar(props) {
           <img src={IcStorage} alt='Icon Storage' className='menu-item-icon'/>
           <p className='menu-item-text'>Storage</p>
         </div>
-        <div className={"menu-item "+selectedPage(props.page,'homepage')}  onClick={() => goto('/homepage')}>
+        <div className={"menu-item "+selectedPage(props.page,'homepage')}  onClick={() => goto('/')}>
           <img src={IcHome} alt='Icon Home' className='menu-item-icon'/>
           <p className='menu-item-text'>Homepage</p>
         </div>

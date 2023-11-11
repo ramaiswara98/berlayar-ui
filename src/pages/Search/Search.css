@@ -25,9 +25,30 @@
     border-bottom:  2px solid #8D8D8D;
     margin-top: 40px;
 }
+
+.search-detail-card{
+    display: flex;
+    padding-top: 20px;
+    border-top:  2px solid #8D8D8D;
+    margin-top: 40px;
+}
+
 .search-result-card img{
     width: 200px;
     height: 200px;
+}
+
+.search-detail-card img{
+    width: 250px;
+    height: 250px;
+}
+
+.description-container{
+    margin-top: 20px;
+}
+
+.description-container p{
+    margin: 0;
 }
 
 .search-result-content{
@@ -35,4 +56,31 @@
 }
 .search-result-content p{
     margin: 0;
+}
+
+
+.search-detail-container{
+    display: none;
+}
+
+.title-text{
+    color: #0A0A0C;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+.search-detail-img{
+    width: 300px;
+    height: 300px;
+}
+
+.search-detail-button-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.search-detail-button-container span{
+    margin-left: 20px;
 }
