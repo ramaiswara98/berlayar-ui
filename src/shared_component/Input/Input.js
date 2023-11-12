@@ -28,6 +28,7 @@ function Input(props) {
     <input
         className='input'
         type={props.type} 
+        value={props.value?props.value:''}
         placeholder={props.placeholder} 
         style={{
             borderRadius:'10px',
@@ -37,6 +38,7 @@ function Input(props) {
             fontFamily:"'Outfit', sans-serif",
             fontSize:'20px'
         }}>
+        
     </input>
   )
 }

@@ -1,0 +1,9 @@
+.text-area{
+    font-family: 'Outline', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    border: 2px solid #8d8d8d;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
