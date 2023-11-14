@@ -1,0 +1,24 @@
+.chat-top-bar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px;
+}
+.chat-top-bar{
+    width: 100%;
+    background-color: #F4444C;
+}
+.chat-top-bar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title-top-bar{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}

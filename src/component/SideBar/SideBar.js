@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-import './SideBar.css'
+
 import LogoBlack from '../../assets/images/logo-black.png'
 import IcDashboard from '../../assets/icon/ic_dashboard.png'
 import IcChat from '../../assets/icon/ic_chat.png'

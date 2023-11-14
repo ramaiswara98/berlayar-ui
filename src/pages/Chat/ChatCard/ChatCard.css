@@ -1,0 +1,32 @@
+.profile-pic{
+    width: 34px;
+    height: 34px;
+    border-radius: 16px;
+}
+
+.chat-card{
+    display: flex;
+    padding: 20px 50px;
+}
+
+.chat-card-content{
+    padding: 0 20px;
+}
+
+.chat-chooser{
+    display: flex;
+}
+
+.chat-chooser p{
+    margin-left: 10px;
+    padding: 10px 10px;
+    border: 2px solid #31343C;
+    border-radius: 10px;
+}
+
+.chat-chooser p:hover{
+    cursor: pointer;
+    background-color: #F4444C;
+    color: #fff;
+    border: none;
+}

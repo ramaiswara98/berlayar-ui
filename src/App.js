@@ -12,6 +12,7 @@ import AdminPage from "./component/AdminPage/AdminPage";
 import Generate from "./pages/Generate/Generate";
 import Search from "./pages/Search/Search";
 import Storage from "./pages/Storage/Storage";
+import Chat from "./pages/Chat/Chat";
 
 function App() {
   return (
@@ -85,6 +86,15 @@ function App() {
         path="/storage"
         element={
           <AdminPage content={<Storage/> } page={'storage'}/>
+        }
+        />
+    </Routes>
+    <Routes>
+      <Route
+        exact
+        path="/chat"
+        element={
+          <Chat/>
         }
         />
     </Routes>
