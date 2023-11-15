@@ -5,7 +5,6 @@ import Card from './Card'
 
 function Dashboard() {
 
-
   const newsContent = (news,date) => {
     return(
       <div className='row'>
@@ -22,16 +21,16 @@ function Dashboard() {
   const storageContent = (name,status,data,source) => {
     return(
     <div className='row'>
-      <div className='col'>
+      <div className='col-4'>
           <p className='card-primary-text'>{name}</p>
       </div>
-      <div className='col'>
+      <div className='col-2'>
        <div style={{backgroundColor:"#19AF66",borderRadius:'5px', width:'20px',height:"20px"}}></div>
       </div>
-      <div className='col'>
+      <div className='col-4'>
         <p className='card-secondary-text'>{data}</p>
       </div>
-      <div className='col'>
+      <div className='col-2'>
          <p className='card-secondary-text'>{source}</p>
       </div>
     </div>
@@ -54,6 +53,7 @@ function Dashboard() {
     <div className='dashboard-container'>
       <div className='greeting'>
         <p>Welcome, Jhon Doe</p>
+      
       </div>
       <div className='dashboard-content-container'>
           <Card title={'Storage'} viewall={true} width={'55%'}
